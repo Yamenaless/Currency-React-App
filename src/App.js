@@ -8,11 +8,7 @@ import ImageSlider from "./components/ImageSlider";
 function App() {
   return (
     <div>
-      <Header />
-      <HeroSection/>
-      <TestimonialSection/>
-      <ImageSlider/>
-      {/* Your other components or content here */}
+      
     </div>
   );
 }
