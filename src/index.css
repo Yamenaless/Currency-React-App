@@ -5,9 +5,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@layer base {
+@layer base { 
+  .blue  {
+    color: lightseagreen
+  }
   li{
-    font-family: 'Cabin', sans-serif;   }
+   @apply font-['Cabin'] p-4
+   }
   h1 {
     @apply font-extrabold   
   }
