@@ -1,12 +1,12 @@
 import React from "react";
-import Developer from "../assets/pexels-cottonbro-studio-4709292.jpg";
+import Developer from "../assets/terminal.jpg";
 
 const Developers = () => {
   return (
     <div className="w-full text-white bg-black">
-      <div className="max-w-[1240px] mx-auto px-4 py-16 gap-5 sm:flex text-center sm:text-left">
-        <div className="py-10">
-          <h1 className="text-4xl font-bold">
+      <div className="max-w-[1240px] h-[50%] mx-auto px-4 py-16 gap-5 md:flex sm:block text-center sm:text-left">
+        <div className="py-10 space-y-15">
+          <h1 className="text-4xl mb-10 font-bold">
             Superpowers for Defi Developers
           </h1>
           <p>
@@ -17,10 +17,10 @@ const Developers = () => {
           </p>
         </div>
         <div className="rounded-xl text-center w-full flex justify-center">
-          <image
-            className=" rounded-3xl max-w-[250px] shadow-lg shadow-cyan-500"
+          <img
+            className="rounded-3xl w-[300] max-h-[250px] shadow-lg shadow-cyan-500"
             src={Developer}
-            alt="developer-image"
+            alt="developer"
           />
         </div>
       </div>
