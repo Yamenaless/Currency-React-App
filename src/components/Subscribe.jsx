@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscibe = () => {
   return (
-    <div className="w-full px-4 py-16 bg-black text-center text-white">
+    <div id={"platform"} className="w-full px-4 py-16 bg-black text-center text-white">
       <h1 className="text-5xl">Join our Community</h1>
       <div className=" py-4 space-x-5">
         <input

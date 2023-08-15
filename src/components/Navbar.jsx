@@ -18,9 +18,6 @@ const Navbar = () => {
         {/* ============ Navbar ============= */}
         <div className="hidden md:flex">
           <ul className="text-white flex  cursor-pointer items-center ">
-            <Link smooth to={"/"}>
-              <li>Home</li>
-            </Link>
             <Link smooth to={"#platform"}>
               <li>Platform</li>
             </Link>

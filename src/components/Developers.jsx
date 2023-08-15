@@ -3,7 +3,7 @@ import Developer from "../assets/terminal.jpg";
 
 const Developers = () => {
   return (
-    <div className="w-full text-white bg-black">
+    <div id="developers" className="w-full text-white bg-black">
       <div className="max-w-[1240px] h-[50%] mx-auto px-4 py-16 gap-5 md:flex sm:block text-center sm:text-left">
         <div className="py-10 space-y-15">
           <h1 className="text-4xl mb-10 font-bold">
